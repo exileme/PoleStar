@@ -1,0 +1,236 @@
+/*
+
+Custom Style Sheet For Search v1.0
+Last Modified: 2007-03-14 09:08:17
+
+*/
+
+html{
+	overflow-y: auto; /* fixes MSIE scrollbar bug */
+}
+.title{
+	width: auto;
+}
+.innerHeader{
+	min-width: 610px;
+	width: auto;
+	margin: 0px 20px;
+}
+.wrapper{
+	margin: 0px;
+	padding: 0px;
+}
+.navPanel{
+	padding: 0px 20px 0px 90px;
+}
+.innerNavPanel{
+	width: 100%;
+	margin: 0px;
+}
+
+/* search panel */
+.search{
+	float: left;
+	margin: 16px 0px 0px 16px;
+}
+.searchBox{
+	width: 400px;
+}
+
+
+/* category */
+.categories{
+	margin-bottom: 5px;
+}
+.categories a:link,
+.categories a:active,
+.categories a:hover,
+.categories a:visited
+{
+	color: #2760AB !important;
+	margin: 0px 5px;
+}
+.categories a:hover{
+	color: #0099FF !important;
+	background: none !important;
+}
+
+.categories a.active:link,
+.categories a.active:active,
+.categories a.active:hover,
+.categories a.active:visited
+{
+	font-weight: bold !important;
+	color: black !important;
+	text-decoration: none !important;
+}
+.categories a.preferred:link,
+.categories a.preferred:active,
+.categories a.preferred:hover,
+.categories a.preferred:visited
+{
+	font-weight: bold !important;
+}
+.categories a.preferred-active:link,
+.categories a.preferred-active:active,
+.categories a.preferred-active:hover,
+.categories a.preferred-active:visited
+{
+	color: black !important;
+	font-weight: bold !important;
+	text-decoration: none !important;
+}
+
+a.add-fav:link,
+a.add-fav:active,
+a.add-fav:hover,
+a.add-fav:visited
+{
+	color: #996600 !important;
+}
+
+/* history menu */
+.history{
+	border: 1px solid #C0BBB4;
+	background: white;
+}
+.history a:link,
+.history a:visited,
+.history a:active,
+.history a:hover
+{
+	color: #746A52 !important;
+	display: block !important;
+	float: none !important;
+	background: none !important;
+	padding: 2px 10px !important;
+	border-bottom: 1px dotted #DAD6CB !important;
+	text-decoration: none !important;
+}
+.history a:hover{
+	color: #4F7500 !important;
+	background: #F4FBE1 !important;
+	text-decoration: underline !important;
+}
+
+.history a.special:link,
+.history a.special:active,
+.history a.special:visited
+{
+	border-bottom: none !important;
+	font-weight: bold !important;
+	background: #F7F5F4 !important;
+}
+.history a.special:hover{
+	background: #E9F8C2 !important;
+}
+
+/*search tabs*/
+.buttons .menu{
+	color: #999999 !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+/* note */
+.note {
+	margin: 20px 90px;;
+	padding: 20px;
+	color: black;
+	border: 1px solid #F2C973;
+	background: #FFFFE6;
+}
+
+/* blank page */
+.loading{
+	margin: 20px;
+	color: #999999;
+}
+
+/* options */
+.options{
+	margin: 10px 90px;
+}
+
+
+/* prefer list */
+.prefer-list{
+}
+.prefer-list th{
+	text-align: left;
+	color: black;
+	padding: 5px;
+}
+
+.list,
+.list-hot
+{
+	height: 300px;
+	max-height: 300px;
+	overflow: auto;
+	background: #FCFCFA;
+	border: 1px solid #CBC7B8;
+}
+.list-hot{
+	background: #EEF4FD;
+	border: 1px solid #A7C7F5;
+}
+
+.list-item,
+.list-item-hot,
+.list-item-selected{
+	cursor:pointer;
+	padding: 5px 5px 5px 12px;
+	background: white url('base/bg_btn.png');
+	border-bottom: 1px dotted #D5CEC1;
+}
+.list-item-hot{
+	color: #225095;
+	background: white url('custom/bg_item.png');
+	border-bottom: 1px dotted #ACCAF7;
+}
+.list-item:hover,
+.list-item-hot:hover
+{
+	color: #395500;
+	background: #EFF9D0 url('base/bg_btn_hover.png');
+}
+.list-item-selected{
+	color: #993300;
+	background: #FFF1BB url('base/bg_btn_active.png');
+}
+
+.list-control{
+	float: right;
+}
+.list-control img{
+	cursor: pointer;
+}
+
+.list-cat{
+	cursor: pointer;
+	padding: 5px;
+	font-weight:bold;
+	color: #716753 !important;
+	background: #E4E1DA;
+	border-bottom: 1px solid #CCC6BB;
+}
+
+
+.list-edit-table{
+	color: #225095;
+	background: #EEF4FD;
+	border: 1px solid #A7C7F5;
+}
+.list-edit-table input.text{
+}
+.list-row-header{
+	text-align: right;
+	width: 10px;
+	word-wrap: normal;
+	word-break: keep-all;
+	white-space: nowrap;
+}
+.comment{
+	color: #6495DD;
+}
