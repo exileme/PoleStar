@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FC游戏目录</title>
+ <link rel="icon" href="img/cardano.32.png" type="img/x-ico" />
+<script src="js/jquery.min.js"></script>
+<script src="js/tableXR.js"></script>
+<script src="js/json.js"></script>
+
+</head>
+<body></script>
+
+<div id="root" style="width:screen.availWidth"></div>
+<center>
+<script type="text/javascript">
+	$('#root').tableXR({
+		//表格标题
+		title:'FC游戏列表',
+		//表格头部设置
+		columns:[
+			{data:'id',title:'序号'},
+			{data:'name',title:'名称'},
+			{data:'page',title:'页数'},
+			{data:'remarks',title:'备注'},
+		],
+		//表格数据：
+		data:DB
+	})
+</script></center>
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';"><br><br><br>
+<p>适用浏览器：360、FireFox、Chrome、Opera、傲游、搜狗、世界之窗. 不支持Safari、IE8及以下浏览器。</p>
+<p>来源：<a href="https://www.lanrenzhijia.com/" target="_blank">懒人</a></p>
+</div>
+</body>
+</html>

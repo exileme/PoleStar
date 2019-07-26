@@ -1,0 +1,8 @@
+.nav_li{background:#043567;height:30px;line-height:30px;width:100%;overflow:hidden;min-width:1000px}
+.nav_li_box{width:1000px;margin:0 auto}.nav_li_left{float:left;color:#fff;font-size:12px;width:720px}
+.nav_li_left a{color:#fff;display:block;float:left;margin-right:10px;font-size:12px;position:relative;z-index:1114}
+.nav_li_left a:hover{color:#ee842f}.nav_li_left a .showECode{position:absolute;z-index:1114;left:-10px;top:17px}
+.nav_li_right{float:right;width:280px;text-align:right}
+.nav_li_left span{display:block;float:left;margin-right:10px}.nav_li_right a{color:#fff;font-size:12px}.nav_li_right a:hover{color:#ee842f}
+/* .nav_li_right a.login_li{background:url(https://i.tq121.com.cn/i/weather2015/index/indexImg_gl.png) no-repeat -580px -115px;padding-left:29px} */
+/* .nav_addr{width:1000px;height:65px;border-bottom:1px solid #dee8f2;margin:0 auto;position:absolute;left:0;right:0;z-index:10} */
